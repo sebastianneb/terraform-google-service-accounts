@@ -7,6 +7,17 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0](https://www.github.com/terraform-google-modules/terraform-google-service-accounts/compare/v2.0.2...v3.0.0) (2020-01-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* Service accounts were changed to use for_each, causing a state migration. See the [upgrade guide](./docs/upgrading_to_v2.0.md) for details.
+
+### Features
+
+* Use for_each instead of count to create resource ([#15](https://www.github.com/terraform-google-modules/terraform-google-service-accounts/issues/15)) ([19c8a02](https://www.github.com/terraform-google-modules/terraform-google-service-accounts/commit/19c8a02361af89aa7f3036c843f1cf9f39866d1e))
+
 ## [Unreleased]
 
 ### Added
